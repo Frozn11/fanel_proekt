@@ -64,10 +64,10 @@ async def weather(ctx, s_city):
 
 
 
-# @weather.error
-# async def info_error(ctx, error):
-#     if isinstance(error, discord.ext.commands.errors.MissingRequiredArgument):
-#         await ctx.send('sorry you need to enter city name')
+@weather.error
+async def info_error(ctx, error):
+    if isinstance(error, discord.ext.commands.errors.MissingRequiredArgument):
+        await ctx.send('sorry you need to enter city name')
         
 
 bot.run(TOKEN)
