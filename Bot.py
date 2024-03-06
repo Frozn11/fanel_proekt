@@ -75,10 +75,7 @@ class SimpleView(discord.ui.View):
         @discord.ui.button(label="weather for 5 days", 
                        style=discord.ButtonStyle.blurple)
         async def weatherfor5days(self, interaction: discord.Interaction, button: discord.ui.Button):
-            await interaction.response.send_message("sorry it still in development")
-            self.foo = True
-            self.stop()
-            return
+
             # msg = await interaction.response.send_message("https://cdn.discordapp.com/emojis/1138172643867111595.gif?size=96&quality=lossless")    
             emojes = {
                 "пасмурно": [":cloud:"],
