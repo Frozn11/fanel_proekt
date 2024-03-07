@@ -13,6 +13,8 @@ discord
 
 requsets
 
+math
+
 
 ## Гайды-статьи, где есть полезная информация
 сайт где гайд: https://habr.com/ru/articles/315264/
